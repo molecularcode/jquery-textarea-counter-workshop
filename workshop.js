@@ -6,12 +6,12 @@ $( "#the-textarea" ).keyup(function() {
   var counter = value.length;
   
   if(counter<(140*0.8)) {
-      $( "span#character-counter" ).last().addClass( "green" );
+      $( "span#character-counter" ).last().addClass( "green" ).removeClass( "yellow" );
   }
   else if(counter>=(140*0.8) && counter<=(140*0.9)) {
-      $( "span#character-counter" ).last().addClass( "yellow" );
+      $( "span#character-counter" ).last().addClass( "yellow" ).removeClass( "green red" );
   }
   else {
-      $( "span#character-counter" ).last().addClass( "red" );
+      $( "span#character-counter" ).last().addClass( "red" ).removeClass( "green" );
   }
 });
