@@ -85,3 +85,4 @@ For bonus points, make it so that the character count display is:
 * Red if less than 10% of characters are left
 
 One simple way to achieve this colour change is to [modify the `class` of the `span` element](https://api.jquery.com/addclass/) and use some CSS to colour the text appropriately.
+# dc-day2-jQuery-textbox-counter
