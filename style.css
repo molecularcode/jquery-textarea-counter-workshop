@@ -2,11 +2,14 @@ body {
     text-align: center;
 }
 main {
-    background-color: #f5ecce;
+    background-color: #2ECCFA;
     display: inline-block;
     margin: 0 auto;
     padding: 10px 20px;
     text-align: center;
+}
+h1 {
+    color: #fff;
 }
 textarea {
     height: 110px;
