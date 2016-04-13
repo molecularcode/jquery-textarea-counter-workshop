@@ -1,3 +1,18 @@
+body {
+    text-align: center;
+}
+main {
+    background-color: #f5ecce;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+textarea {
+    height: 110px;
+    padding: 10px;
+    border: 0 none;
+}
 .green {
     color: #088A08;
 }
